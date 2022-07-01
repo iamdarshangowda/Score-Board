@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="http://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla"
+      rel="stylesheet"
+    />
+    <title>Score Card</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <section class="player-container">
+        <h1 id="home">Home</h1>
+        <div class="score-board">
+          <p id="hscore">0</p>
+        </div>
+        <div class="btn-container">
+          <button class="btn btnh" value="1">+1</button>
+          <button class="btn btnh" value="2">+2</button>
+          <button class="btn btnh" value="3">+3</button>
+        </div>
+      </section>
+      <section class="player-container">
+        <h1 id="guest">Guest</h1>
+        <div class="score-board">
+          <p id="gscore">0</p>
+        </div>
+        <div class="btn-container">
+          <button class="btn btng" value="1">+1</button>
+          <button class="btn btng" value="2">+2</button>
+          <button class="btn btng" value="3">+3</button>
+        </div>
+      </section>
+      <div class="func">
+        <div class="new_game">
+          <button class="btn" id="ngbtn">New Game</button>
+          <button class="btn" id="savebtn">Save Game</button>
+        </div>
+      </div>
+      <section class="saved_game">
+        <ol id="ol"></ol>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f2937;
+}
+
+.main-container {
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  color: #eeeeee;
+}
+
+h1 {
+  font-family: Verdana, Arial;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+}
+
+.player-container {
+  position: relative;
+  margin: 5px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  width: 255px;
+  height: 220px;
+  background: #080001;
+  border-radius: 5px;
+  margin-top: 21px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+}
+
+.score-board > p {
+  color: #f94f6d;
+  font-size: 90px;
+  align-self: center;
+}
+
+.btn {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-top: 26px;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #9aabd8;
+  font-size: 18px;
+  background: none;
+  line-height: 28px;
+}
+
+.btn:hover {
+  background: lightcyan;
+}
+
+.new_game {
+  text-align: center;
+}
+
+#ngbtn,
+#savebtn {
+  width: 150px;
+  height: 60px;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.saved_game {
+  text-align: center;
+  font-size: 18px;
+  font-family: Verdana, Arial;
+  color: #9aabd8;
+  margin-top: 15px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .main-container {
+    height: 500px;
+  }
+  .player-container {
+    width: 300px;
+  }
+  .score-board {
+    width: 155px;
+    height: 120px;
+  }
+}
