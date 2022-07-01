@@ -32,7 +32,7 @@ h1 {
 
 .player-container {
   position: relative;
-  margin: 5px;
+  margin: 10px;
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -43,8 +43,8 @@ h1 {
 .score-board {
   display: flex;
   justify-content: center;
-  width: 255px;
-  height: 220px;
+  width: 300px;
+  height: 280px;
   background: #080001;
   border-radius: 5px;
   margin-top: 21px;
@@ -53,20 +53,20 @@ h1 {
 
 .score-board > p {
   color: #f94f6d;
-  font-size: 90px;
+  font-size: 120px;
   align-self: center;
 }
 
 .btn {
-  width: 45px;
-  height: 45px;
+  width: 65px;
+  height: 65px;
   border: 2px solid #9aabd8;
   border-radius: 5px;
   margin-right: 20px;
   margin-top: 26px;
   font-family: "CursedTimerULiL", Verdana, sans-serif;
   color: #9aabd8;
-  font-size: 18px;
+  font-size: 28px;
   background: none;
   line-height: 28px;
 }
@@ -105,5 +105,12 @@ h1 {
   .score-board {
     width: 155px;
     height: 120px;
+  }
+  .score-board > p {
+    font-size: 90px;
+  }
+  .btn {
+    width: 45px;
+    height: 45px;
   }
 }
