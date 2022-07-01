@@ -1,3 +1,8 @@
+@font-face {
+  src: url("CursedTimerULiL.ttf");
+  font-family: CursedTimerULiL;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -43,7 +48,7 @@ h1 {
   background: #080001;
   border-radius: 5px;
   margin-top: 21px;
-  font-family: "Cursed Timer ULiL", sans-serif;
+  font-family: "CursedTimerULiL", Verdana, sans-serif;
 }
 
 .score-board > p {
@@ -59,7 +64,7 @@ h1 {
   border-radius: 5px;
   margin-right: 20px;
   margin-top: 26px;
-  font-family: "Cursed Timer ULiL", sans-serif;
+  font-family: "CursedTimerULiL", Verdana, sans-serif;
   color: #9aabd8;
   font-size: 18px;
   background: none;
